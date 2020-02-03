@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PORTFOLIO-RAJINI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="bg-color-green-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 header-padding" id="icon-box">
+                        <a class="icon text-center mr-1" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="icon text-center mr-1" href="https://aboutme.google.com/"><i
+                                class="fab fa-google-plus-g"></i></a>
+                        <a class="icon text-center mr-1" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-6 header-padding ">
+                        <nav class="navbar navbar-expand-lg color_white navbar-light justify-content-end">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="overlay d-lg-none"></div>
+                            <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+                                <ul class="navbar-nav ml-auto menu text-uppercase font-weight-medium font-size-15" id="nav-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="main.html">main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="about.html">about</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="project.html">projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="portfolio.html">portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Left -->
+        <div class="header-left">
+            <div class="d-flex justify-content-center font-weight-light font-color-white">
+                <div>
+                    <h3 class="font-size-22 font-weight-light">Hi, I am,</h3>
+                    <h3 class="font-size-80 font-weight-light">RAJINI</h3>
+                    <h3 class="font-size-20 text-right font-weight-light">Handicraft Artist</h3>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center logo-padding">
+                <img class="img-fluid round-border-white" src="images/rajini.png">
+            </div>
+        </div>
+        <!-- Header Right -->
+        <div class="header-right index">
+            <div>
+                <img class="img-fluid" src="images/handi-craft-2.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- Header Ends -->
+    <!-- Content Starts -->
+    <div class="margin-92">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 center-text text-wrap">
+                    <h1 class="font-size-40 font-weight-regular pt-5 margin-top-content">My Portfolio</h1>
+                    <p class="font-size-15 font-weight-regular font-color-black margin-30 text-indent justify">
+                        Lorem ipsum dolor sit amet, tota mundi ea qui, te impetus maest. Maiorum fastidii perpetua vim
+                        ea,
+                        no noluisse scaevola sea. Mel lupmediocritatem an nam. Mei ad recusabo corrumpit vituperata, te
+                        quaeque meliore nec. No quot eros primis has. Ne has liber menandri. Cu pri fierent enim ignota,
+                        cu
+                        aperiri albucius vel. Cibo appellantur mea eu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="navTab">
+                <ul class="nav nav-tabs font-size-30 font-weight-regular justify-content-center portfolio-bottom-border"
+                    id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="gardening-tab" data-toggle="tab" href="#gardening" role="tab"
+                            aria-controls="gardening" aria-selected="true">Gardening</a>
+                    </li>
+                    <!-- <li>|</li> -->
+                    <li class="nav-item painting" id="border">
+                        <a class="nav-link active" id="painting-tab" data-toggle="tab" href="#painting" role="tab"
+                            aria-controls="painting" aria-selected="false">Painting</a>
+                    </li>
+                    <!-- <li>|</li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" id="handicraft-tab" data-toggle="tab" href="#handicraft" role="tab"
+                            aria-controls="handicraft" aria-selected="false">Handicraft</a>
+                    </li>
+                </ul>
+                <!-- Gardening -->
+                <div class="container">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="gardening" role="tabpanel" aria-labelledby="gardening-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                          <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                           <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Painting -->
+                        <div class="tab-pane fade show active" id="painting" role="tabpanel"
+                            aria-labelledby="painting-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 pt-5 ">
+                                        <div class="card">
+                                            <img class="img-fluid " src="images/painting.png">
+                                            <div class="card-overlay">
+                                                <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                    <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                    <div class="container" id="click">
+                                                        <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                            perpetua vim ea, no noluisse scaevola sea. Mel
+                                                            lupmediocritate</p>
+                                                        <a href="images/painting.png" data-fancybox data-caption=""
+                                                            class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                            Enlarge]</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                            <!-- Handicraft -->
+                            <div class="tab-pane fade" id="handicraft" role="tabpanel" aria-labelledby="handicraft-tab">
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 pt-5 ">
+                                            <div class="card">
+                                                <img class="img-fluid " src="images/painting.png">
+                                                <div class="card-overlay">
+                                                    <div class="card-content mt-lg-4 portfolio-content-padding">
+                                                        <h3 class="font-size-22 font-weight-regular">Photo Title</h3>
+                                                        <div class="container" id="click">
+                                                            <p class="font-size-15 font-weight-regular font-color-white">Lom fastidii
+                                                                perpetua vim ea, no noluisse scaevola sea. Mel
+                                                                lupmediocritate</p>
+                                                            <a href="images/painting.png" data-fancybox data-caption=""
+                                                                class="font-weight-regular font-size-15 font-color-white">[Click to
+                                                                Enlarge]</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        <!-- Content Ends -->
+        <!-- Footer Starts -->
+        <div class="footer">
+            <div class="footer-left d-flex justify-content-center">
+                <div class="font-color-white footer-left-icon">
+                    <h3 class="font-size-40 font-weight-regular">Thank You!</h3>
+                    <h3 class="font-size-20 font-weight-regular text-right">Visit again</h3>
+                    <div class="justify-content-end text-right d-flex pt-5" id="icon-box">
+                        <a class="icon text-center mr-1" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="icon text-center mr-1" href="https://aboutme.google.com/"><i
+                                class="fab fa-google-plus-g"></i></a>
+                        <a class="icon text-center mr-1" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-right-icon font-color-white font-weight-regular font-size-15">
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <div class="ml-3">
+                            <span>
+                                Address Line One </br>
+                                Street Name, City Code, State </br>
+                                00667788 </span>
+                        </div>
+                    </div>
+                    <div class="pt-4">
+                        <i class="far fa-envelope"></i>
+                        <span class="ml-3">info@domain.com</span>
+                    </div>
+                    <div class="pt-3">
+                        <i class="fa fa-phone fa-flip-horizontal"></i>
+                        <span class="ml-3">1800 9123 456</span>
+                    </div>
+                    <div class="pt-5">
+                        <span>© domain | All rights Reserved</span>
+                    </div>
+                </div>
+                <div><a id="scroll-button"> <i class="fa fa-arrow-up margin-scroll"></i></a></div>
+            </div>
+        </div>
+        <!-- Footer Ends -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/function.js"></script>
+</body>
+
+</html>
